@@ -9,7 +9,7 @@ import com.example.qa.wait.WaitForElementToAppear;
 
 public class DuckDuckGoResultsPage extends BasePage {
 
-	@FindBy(css = ".result__a")
+	@FindBy(css = "#links .result__a")
 	private WebElement firstLink;
 
 	public DuckDuckGoResultsPage(WebDriver driver, BrowsersEnum browser) {
