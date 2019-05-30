@@ -1,4 +1,4 @@
-package com.tihomir.example.qa.testbase.driverfactory;
+package com.example.qa.testbase.driverfactory;
 
 import java.net.MalformedURLException;
 import java.util.Collections;
@@ -11,7 +11,7 @@ import org.openqa.selenium.logging.LoggingPreferences;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.tihomir.example.qa.testbase.TestModesEnum;
+import com.example.qa.testbase.TestModesEnum;
 
 public abstract class GenericFactory {
   protected static final Logger logger = LoggerFactory.getLogger(GenericFactory.class);

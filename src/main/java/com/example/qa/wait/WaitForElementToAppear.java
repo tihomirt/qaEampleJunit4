@@ -1,4 +1,4 @@
-package com.tihomir.example.qa.wait;
+package com.example.qa.wait;
 
 import java.util.function.Function;
 

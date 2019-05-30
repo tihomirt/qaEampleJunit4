@@ -1,4 +1,4 @@
-package com.tihomir.example.qa.testbase;
+package com.example.qa.testbase;
 
 import org.apache.commons.lang3.StringUtils;
 import org.junit.runners.BlockJUnit4ClassRunner;

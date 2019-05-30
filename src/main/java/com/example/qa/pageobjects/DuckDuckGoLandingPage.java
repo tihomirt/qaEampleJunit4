@@ -1,13 +1,13 @@
-package com.tihomir.example.qa.pageobjects;
+package com.example.qa.pageobjects;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import com.tihomir.example.qa.testbase.BrowsersEnum;
-import com.tihomir.example.qa.wait.WaitConstants;
-import com.tihomir.example.qa.wait.WaitForElementToAppear;
+import com.example.qa.testbase.BrowsersEnum;
+import com.example.qa.wait.WaitConstants;
+import com.example.qa.wait.WaitForElementToAppear;
 
 public class DuckDuckGoLandingPage extends BasePage {
 
@@ -30,6 +30,4 @@ public class DuckDuckGoLandingPage extends BasePage {
 		searchField.sendKeys(Keys.ENTER);
 		return new DuckDuckGoResultsPage(driver, browser);
 	}
-
-
 }

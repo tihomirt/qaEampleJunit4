@@ -1,4 +1,4 @@
-package com.tihomir.example.qa.testbase.driverfactory;
+package com.example.qa.testbase.driverfactory;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -17,8 +17,8 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import com.tihomir.example.qa.testbase.TestModesEnum;
-import com.tihomir.example.qa.wait.WaitConstants;
+import com.example.qa.testbase.TestModesEnum;
+import com.example.qa.wait.WaitConstants;
 
 public class EdgeFactory extends GenericFactory implements DriverInterface {
   

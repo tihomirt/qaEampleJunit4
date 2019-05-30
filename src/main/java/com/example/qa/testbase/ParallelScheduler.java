@@ -1,4 +1,4 @@
-package com.tihomir.example.qa.testbase;
+package com.example.qa.testbase;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

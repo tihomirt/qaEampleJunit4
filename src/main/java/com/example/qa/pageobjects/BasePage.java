@@ -1,4 +1,4 @@
-package com.tihomir.example.qa.pageobjects;
+package com.example.qa.pageobjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.LoadableComponent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.tihomir.example.qa.testbase.BrowsersEnum;
+import com.example.qa.testbase.BrowsersEnum;
 
 abstract class BasePage extends LoadableComponent<BasePage> {
 
@@ -35,5 +35,4 @@ abstract class BasePage extends LoadableComponent<BasePage> {
   protected void isLoaded() throws Error {
 
   }
-
 }

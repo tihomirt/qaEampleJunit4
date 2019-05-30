@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.tihomir.example.qa</groupId>
+	<groupId>com.example.qa</groupId>
 	<artifactId>QA-Automation-Framework-Junit4</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
@@ -16,7 +16,6 @@
 		<hamcrest-library.version>2.1</hamcrest-library.version>
 		<logback-classic.version>1.2.3</logback-classic.version>
 		<slf4j-api.version>1.7.16</slf4j-api.version>
-
 
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>

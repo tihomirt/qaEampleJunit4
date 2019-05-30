@@ -1,4 +1,4 @@
-package com.tihomir.example.qa.testbase.driverfactory;
+package com.example.qa.testbase.driverfactory;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -13,8 +13,8 @@ import org.openqa.selenium.firefox.GeckoDriverService;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import com.tihomir.example.qa.testbase.TestModesEnum;
-import com.tihomir.example.qa.wait.WaitConstants;
+import com.example.qa.testbase.TestModesEnum;
+import com.example.qa.wait.WaitConstants;
 
 public class FirefoxFactory extends GenericFactory implements DriverInterface {
 

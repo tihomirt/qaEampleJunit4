@@ -1,7 +1,7 @@
-package com.tihomir.example.qa.testbase.driverfactory;
+package com.example.qa.testbase.driverfactory;
 
-import com.tihomir.example.qa.testbase.BrowsersEnum;
-import com.tihomir.example.qa.testbase.TestModesEnum;
+import com.example.qa.testbase.BrowsersEnum;
+import com.example.qa.testbase.TestModesEnum;
 
 public class DriverFactory {
 

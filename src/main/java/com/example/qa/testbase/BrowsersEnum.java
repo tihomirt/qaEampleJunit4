@@ -1,4 +1,4 @@
-package com.tihomir.example.qa.testbase;
+package com.example.qa.testbase;
 
 public enum BrowsersEnum {
   CHROME,

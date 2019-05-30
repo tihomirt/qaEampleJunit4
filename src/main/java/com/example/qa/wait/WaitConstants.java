@@ -1,4 +1,4 @@
-package com.tihomir.example.qa.wait;
+package com.example.qa.wait;
 
 public class WaitConstants {
   public static final String URL = "https://duckduckgo.com";

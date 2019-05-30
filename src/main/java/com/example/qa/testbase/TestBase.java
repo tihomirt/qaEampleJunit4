@@ -1,4 +1,4 @@
-package com.tihomir.example.qa.testbase;
+package com.example.qa.testbase;
 
 import org.junit.After;
 import org.openqa.selenium.WebDriver;
@@ -6,8 +6,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
 
-import com.tihomir.example.qa.testbase.driverfactory.DriverFactory;
-import com.tihomir.example.qa.testbase.driverfactory.DriverInterface;
+import com.example.qa.testbase.driverfactory.DriverFactory;
+import com.example.qa.testbase.driverfactory.DriverInterface;
 
 public class TestBase {
 
